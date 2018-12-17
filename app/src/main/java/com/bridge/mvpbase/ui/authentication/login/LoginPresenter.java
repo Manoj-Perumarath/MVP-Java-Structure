@@ -1,7 +1,7 @@
-package com.bridge.mvpbase.ui.login;
+package com.bridge.mvpbase.ui.authentication.login;
+
 
 public interface LoginPresenter {
 
     void setView(LoginView loginView);
-
 }
