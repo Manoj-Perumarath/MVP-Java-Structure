@@ -4,6 +4,7 @@ import android.app.Application;
 
 import com.bridge.mvpbase.constants.AppConstants;
 import com.bridge.mvpbase.data.db.AppDatabase;
+import com.google.firebase.FirebaseApp;
 
 public class MVPApplication extends Application {
 
@@ -15,6 +16,7 @@ public class MVPApplication extends Application {
     public void onCreate() {
         super.onCreate();
       setAppDatabase(this);
+        FirebaseApp.initializeApp(this);
     }
 
     public AppDatabase getAppDatabase() {
