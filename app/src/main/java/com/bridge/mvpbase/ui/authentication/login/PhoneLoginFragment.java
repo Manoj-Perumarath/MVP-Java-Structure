@@ -53,7 +53,6 @@ public class PhoneLoginFragment extends Fragment implements PhoneView {
         return view;
     }
 
-
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);

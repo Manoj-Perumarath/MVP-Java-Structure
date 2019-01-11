@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MVPBase</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_using_phone">Login Using Phone</string>
+    <string name="phone_number_hint">Enter your phone number</string>
+    <string name="verify">Verify</string>
+</resources>
